@@ -1335,14 +1335,17 @@ fieldset[disabled] .s-btn {
   background: rgba(34, 35, 36, 0);
   visibility: hidden;
   -webkit-transition: all 1s ease-in 0.4s;
-  transition: all 1s ease-in 0.4s;
+  transition: all 0.1s ease-in 0.4s;
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(34, 35, 36, 0.99);
+  /* background: rgba(34, 35, 36, 0.99); */
   visibility: visible;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 1s ease-out;
+  transition: all 0.1s ease-out;
+}
+.scolse {
+  visibility: hidden;
 }
 
 /* Nav
